@@ -1,0 +1,402 @@
+{
+  "job_roles": [
+    {
+      "name": "Machine Learning Engineer",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Deep Learning",
+        "Statistical Modeling",
+        "Data Preprocessing",
+        "Neural Networks",
+        "Natural Language Processing (NLP)",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "Model Deployment",
+        "Algorithm Design",
+        "Data Visualization",
+        "Mathematics (Linear Algebra, Calculus, Probability)"
+      ]
+    },
+    {
+      "name": "Cybersecurity Analyst",
+      "skills": [
+        "Ethical Hacking",
+        "Network Security",
+        "Penetration Testing",
+        "Security Protocols",
+        "Cryptography",
+        "Intrusion Detection Systems (IDS)",
+        "Security Information and Event Management (SIEM)",
+        "Vulnerability Assessment",
+        "Firewalls",
+        "Incident Response",
+        "Secure Coding Practices",
+        "Threat Intelligence",
+        "Risk Assessment",
+        "Digital Forensics",
+        "Security Compliance Standards (e.g., GDPR, HIPAA)"
+      ]
+    },
+    {
+      "name": "Cloud Solutions Architect",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure",
+        "Google Cloud Platform (GCP)",
+        "Infrastructure as Code (IaC) tools (e.g., Terraform, CloudFormation)",
+        "Containerization (Docker, Kubernetes)",
+        "Serverless Computing",
+        "Networking Fundamentals",
+        "Microservices Architecture",
+        "DevOps Practices",
+        "Scalability and Elasticity",
+        "Security Best Practices in Cloud",
+        "Monitoring and Logging",
+        "Cost Optimization",
+        "High Availability",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "name": "Data Scientist",
+      "skills": [
+        "Python/R",
+        "SQL/NoSQL Databases",
+        "Data Mining",
+        "Statistical Analysis",
+        "Machine Learning Algorithms",
+        "Data Visualization (Matplotlib, Seaborn, Plotly)",
+        "Big Data Technologies (Hadoop, Spark)",
+        "Data Wrangling",
+        "Experimental Design",
+        "A/B Testing",
+        "Time Series Analysis",
+        "Dimensionality Reduction",
+        "Feature Engineering",
+        "Data Cleaning",
+        "Business Intelligence Tools (Tableau, Power BI)"
+      ]
+    },
+    {
+      "name": "Software Developer (Full Stack)",
+      "skills": [
+        "JavaScript/TypeScript",
+        "HTML/CSS",
+        "Node.js",
+        "React/Vue/Angular",
+        "RESTful APIs",
+        "GraphQL",
+        "MVC Frameworks",
+        "Databases (SQL, NoSQL)",
+        "Version Control (Git)",
+        "Agile Methodologies",
+        "Test-Driven Development (TDD)",
+        "Continuous Integration/Continuous Deployment (CI/CD)",
+        "Responsive Design",
+        "Web Security Best Practices",
+        "DevOps Practices"
+      ]
+    },
+    {
+      "name": "Embedded Systems Engineer",
+      "skills": [
+        "C/C++",
+        "Microcontrollers (Arduino, Raspberry Pi)",
+        "Assembly Language",
+        "Real-time Operating Systems (RTOS)",
+        "Digital Signal Processing (DSP)",
+        "Electronics",
+        "Sensor Integration",
+        "Firmware Development",
+        "Interfacing (SPI, I2C, UART)",
+        "PCB Design",
+        "Power Management",
+        "Wireless Communication Protocols (Bluetooth, Wi-Fi)",
+        "Debugging Techniques",
+        "Low-level Device Drivers"
+      ]
+    },
+    {
+      "name": "Game Developer",
+      "skills": [
+        "Unity3D/Unreal Engine",
+        "C#/C++",
+        "Game Design Patterns",
+        "3D Modeling and Animation",
+        "Physics Engines",
+        "Shader Programming",
+        "Game AI",
+        "Multiplayer Networking",
+        "Virtual Reality (VR)/Augmented Reality (AR)",
+        "Cross-platform Development",
+        "User Interface (UI) Design",
+        "Audio Programming",
+        "Game Optimization Techniques",
+        "Version Control (Git)",
+        "Game Testing/QA"
+      ]
+    },
+    {
+      "name": "DevOps Engineer",
+      "skills": [
+        "Linux/Unix",
+        "Shell Scripting (Bash)",
+        "Configuration Management (Ansible, Chef, Puppet)",
+        "Continuous Integration/Continuous Deployment (CI/CD) Pipelines",
+        "Containerization (Docker, Kubernetes)",
+        "Infrastructure as Code (IaC) tools (Terraform, CloudFormation)",
+        "Monitoring and Logging Tools (Prometheus, ELK Stack)",
+        "Version Control Systems (Git, SVN)",
+        "Cloud Platforms (AWS, Azure, GCP)",
+        "Networking Concepts",
+        "Security Best Practices",
+        "Incident Response",
+        "Agile Methodologies",
+        "Scripting Languages (Python, Ruby)"
+      ]
+    },
+    {
+      "name": "Blockchain Developer",
+      "skills": [
+        "Solidity",
+        "Ethereum",
+        "Smart Contracts",
+        "Decentralized Applications (DApps)",
+        "Cryptography",
+        "Consensus Mechanisms",
+        "Web3.js",
+        "Truffle Framework",
+        "Hyperledger Fabric",
+        "Blockchain Development Platforms (Etherscan, Remix)",
+        "Wallet Integration",
+        "Distributed Ledger Technology (DLT)",
+        "Tokenization",
+        "Scalability Solutions (e.g., sharding)",
+        "Governance Models"
+      ]
+    },
+    {
+      "name": "Bioinformatics Scientist",
+      "skills": [
+        "Python/R",
+        "Genomics Data Analysis",
+        "Next-generation Sequencing (NGS) Technologies",
+        "Sequence Alignment Algorithms",
+        "Biological Databases (NCBI, UniProt)",
+        "Statistical Genetics",
+        "Phylogenetics",
+        "Systems Biology",
+        "Bioinformatics Tools (BLAST, Bowtie, BWA)",
+        "Structural Bioinformatics",
+        "Molecular Modeling",
+        "Machine Learning in Bioinformatics",
+        "Biostatistics",
+        "Functional Genomics",
+        "Metagenomics"
+      ]
+    },
+    {
+      "name": "Quantum Computing Engineer",
+      "skills": [
+        "Quantum Programming Languages (Q#)",
+        "Quantum Algorithms",
+        "Quantum Circuit Design",
+        "Quantum Cryptography",
+        "Quantum Error Correction",
+        "Quantum Machine Learning",
+        "Quantum Annealing",
+        "Quantum Simulation",
+        "Quantum Hardware (Superconducting Qubits, Ion Traps)",
+        "Quantum Information Theory",
+        "Quantum Complexity Theory",
+        "Quantum Entanglement",
+        "Quantum Teleportation",
+        "Quantum Metrology",
+        "Quantum Key Distribution (QKD)"
+      ]
+    },
+    {
+      "name": "Data Engineer",
+      "skills": [
+        "Python/Scala/Java",
+        "Apache Hadoop",
+        "Apache Spark",
+        "Apache Kafka",
+        "SQL/NoSQL Databases",
+        "ETL (Extract, Transform, Load) Tools",
+        "Data Warehousing Concepts",
+        "Data Modeling",
+        "Big Data Technologies",
+        "Cloud Platforms (AWS, Azure, GCP)",
+        "Distributed Systems",
+        "Stream Processing",
+        "Data Governance",
+        "Workflow Orchestration Tools (Airflow, Luigi)",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Virtual Reality (VR) Developer",
+      "skills": [
+        "Unity3D/Unreal Engine",
+        "C#/C++",
+        "VR/AR SDKs (Oculus, HTC Vive, ARKit, ARCore)",
+        "3D Modeling and Animation",
+        "Spatial Audio",
+        "Physics Simulation",
+        "User Interface (UI) Design for VR",
+        "Multiplayer Networking in VR",
+        "Gesture Recognition",
+        "Haptics",
+        "VR Optimization Techniques",
+        "Cross-platform Development",
+        "VR Hardware Knowledge",
+        "VR User Experience (UX)",
+        "VR Testing/QA"
+      ]
+    },
+    {
+      "name": "Healthcare IT Specialist",
+      "skills": [
+        "Electronic Health Records (EHR) Systems",
+        "Health Information Exchange (HIE)",
+        "HL7/FHIR Standards",
+        "Healthcare Data Privacy Regulations (HIPAA)",
+        "Medical Imaging Systems",
+        "Clinical Decision Support Systems (CDSS)",
+        "Telemedicine Technologies",
+        "Healthcare Analytics",
+        "Healthcare Interoperability",
+        "Healthcare Mobile Apps Development",
+        "Patient Engagement Platforms",
+        "Health Informatics",
+        "Healthcare Data Security",
+        "Healthcare AI/ML Applications",
+        "Remote Patient Monitoring Systems"
+      ]
+    },
+    {
+      "name": "Internet of Things (IoT) Engineer",
+      "skills": [
+        "Embedded C/C++",
+        "IoT Protocols (MQTT, CoAP, HTTP, WebSocket)",
+        "Wireless Communication (Wi-Fi, Bluetooth, Zigbee, LoRaWAN)",
+        "Sensor Networks",
+        "IoT Platforms (AWS IoT, Azure IoT, Google Cloud IoT)",
+        "Edge Computing",
+        "IoT Security",
+        "IoT Data Analytics",
+        "Device Management",
+        "Real-time Data Processing",
+        "Fog Computing",
+        "Industrial IoT (IIoT)",
+        "IoT Gateway Technologies",
+        "IoT Application Development",
+        "IoT Interoperability Standards"
+      ]
+    },
+    {
+      "name": "Robotics Engineer",
+      "skills": [
+        "Robot Operating System (ROS)",
+        "C++/Python",
+        "Kinematics",
+        "Dynamics",
+        "Control Systems",
+        "Computer Vision",
+        "Path Planning",
+        "Simultaneous Localization and Mapping (SLAM)",
+        "Sensors Integration (LiDAR, IMU, Cameras)",
+        "Motion Planning",
+        "Machine Learning for Robotics",
+        "Human-Robot Interaction (HRI)",
+        "Robot Perception",
+        "Manipulation and Grasping",
+        "Embedded Systems for Robotics"
+      ]
+    },
+    {
+      "name": "Ethical AI Developer",
+      "skills": [
+        "Fairness, Accountability, and Transparency in AI (FAT)",
+        "Ethical AI Frameworks",
+        "Bias Detection and Mitigation",
+        "Explainable AI (XAI)",
+        "AI Regulation and Policy",
+        "Data Privacy and Security",
+        "AI Governance",
+        "Responsible AI Development Practices",
+        "AI Ethics Case Studies",
+        "AI Impact Assessment",
+        "Human-Centered AI Design",
+        "AI Decision-making Ethics",
+        "Ethical Datasets Creation",
+        "AI Transparency Tools",
+        "AI Bias Auditing"
+      ]
+    },
+    {
+      "name": "Augmented Reality (AR) Developer",
+      "skills": [
+        "Unity3D",
+        "C#",
+        "ARCore/ARKit",
+        "Vuforia",
+        "Markerless Tracking",
+        "Geolocation-based AR",
+        "Object Recognition",
+        "Environmental Understanding",
+        "User Interface (UI) Design for AR",
+        "Cross-platform Development",
+        "3D Modeling and Animation",
+        "Interaction Design for AR",
+        "Multiplayer AR",
+        "Cloud Anchors",
+        "AR Optimization Techniques"
+      ]
+    },
+    {
+      "name": "Natural Language Processing (NLP) Engineer",
+      "skills": [
+        "Python",
+        "NLTK",
+        "SpaCy",
+        "Gensim",
+        "Transformers (e.g., BERT, GPT)",
+        "Named Entity Recognition (NER)",
+        "Sentiment Analysis",
+        "Topic Modeling",
+        "Text Classification",
+        "Language Modeling",
+        "Word Embeddings (e.g., Word2Vec, GloVe)",
+        "Syntax and Parsing",
+        "Information Extraction",
+        "Dialogue Systems",
+        "Machine Translation"
+      ]
+    },
+    {
+      "name": "Computer Vision Engineer",
+      "skills": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "PyTorch",
+        "Image Processing",
+        "Object Detection",
+        "Image Segmentation",
+        "Feature Extraction",
+        "Convolutional Neural Networks (CNNs)",
+        "Transfer Learning",
+        "Optical Character Recognition (OCR)",
+        "Face Recognition",
+        "Pose Estimation",
+        "Motion Tracking",
+        "3D Reconstruction"
+      ]
+    }
+  ]
+}
