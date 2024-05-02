@@ -30,12 +30,10 @@ def aggregate_skills(matched_roles):
 
 # Assuming the user input is provided to this function
 def process_user_input(input_string):
+    input_string = ' '.join(input_string) if isinstance(input_string, list) else input_string
     data = load_json_data("C:/Users/Owner/Desktop/dop_project/data/jd/dummy_JD_skills.json")
     matched_roles = find_roles_by_input(input_string, data)
     skills_string = aggregate_skills(matched_roles)
     
     # Here, instead of printing, you can use the skills_string wherever needed in your application
-    print(skills_string)  # For demonstration purposes only
-
-# Example usage (you would replace 'input_string' with the actual user input received in your application)
-process_user_input("GraphQL")
+    return skills_string  # For demonstration purposes only

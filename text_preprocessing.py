@@ -1,36 +1,31 @@
-# text_preprocessing.py
-import re
-import nltk
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
+import os
+import pdfplumber
+import fitz 
+from utils import preprocess_text
+from PyPDF2 import PdfReader
 
-# Ensure necessary NLTK data is downloaded
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-nltk.download('averaged_perceptron_tagger', quiet=True)
+def process_pdf_to_keywords(input_pdf, output_folder, encoding='utf-8'):
+    text = ""
+    with fitz.open(input_pdf) as doc:
+        for page in doc:
+            text += page.get_text()
 
-def remove_punctuation_and_capitalization(text):
-    # Remove punctuation and convert to lowercase
-    return re.sub(r'[^\w\s]', '', text).lower()
+    tokens = preprocess_text(text)
+    output_filename = os.path.splitext(os.path.basename(input_pdf))[0] + "_token.txt"
+    output_filepath = os.path.join(output_folder, output_filename)
 
-def remove_non_alpha(tokens):
-    # Remove non-alphabetical tokens
-    return [word for word in tokens if word.isalpha()]
+    with open(output_filepath, 'w', encoding=encoding) as output_file:
+        output_file.write(" ".join(tokens))
 
-def remove_stopwords_and_non_keywords(tokens, additional_non_keywords=set()):
-    # Remove stop words and additional non-keywords
-    stop_words = set(stopwords.words("english"))
-    tokens = [word for word in tokens if word not in stop_words and word not in additional_non_keywords]
-    return tokens
+    return output_filepath
 
-def lemmatize_tokens(tokens):
-    # Lemmatize tokens
-    lemmatizer = WordNetLemmatizer()
-    return [lemmatizer.lemmatize(word) for word in tokens]
+def process_pdfs_in_folder(folder_path, output_folder, encoding='utf-8'):
+    os.makedirs(output_folder, exist_ok=True)
+    token_files = []
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".pdf"):
+            pdf_path = os.path.join(folder_path, filename)
+            token_file = process_pdf_to_keywords(pdf_path, output_folder, encoding)
+            token_files.append(token_file)
 
-# New function to process tokens directly, to be used in utils.py
-def process_tokens(tokens, additional_non_keywords=set()):
-    tokens = remove_non_alpha(tokens)
-    tokens = remove_stopwords_and_non_keywords(tokens, additional_non_keywords)
-    tokens = lemmatize_tokens(tokens)
-    return tokens
+    return token_files
